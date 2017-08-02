@@ -1,0 +1,21 @@
+scorekeeper
+
+var score = {
+	cledwynScore: 0,
+	ewaScore: 0,
+	cailanScore: 0,
+	babciaScore: 0
+}
+
+score.cledwynScore += 1;
+score.ewaScore += 1;
+score.cailanScore += 1;
+score.babciaScore += 1;
+
+//digging into objects and arrays
+
+var myCrazyObject = {
+	"name": "A ridiculous object",
+	"some array": [7, 9, {purpose: "confusion", number: 123}, 3.3],
+	"random animal": "banana shark"
+};
